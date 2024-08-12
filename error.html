@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amazing Error Page</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .error-message {
+      font-size: 48px;
+      color: #ff0000;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="error-message">OH NO!</h1>
+  <p>Something has gone terribly wrong!</p>
+  <p>It's not the end of the world, but it's close.</p>
+  <button onclick="location.reload()">Try Again (but it won't work)</button>
+  <script>
+    // Add some silly error messages to the console
+    console.error("Error: The cake is a lie!");
+    console.error("Error: The answer is not 42!");
+  </script>
+</body>
+</html>
