@@ -155,6 +155,7 @@ terraform init
 Apply the configuration to create the resources in your AWS account.
 
 ```bash
+terraform plan
 terraform apply
 ```
 
