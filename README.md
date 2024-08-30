@@ -1,7 +1,3 @@
-Here's a well-structured README for your Terraform project:
-
----
-
 # AWS S3 Bucket Static Website Deployment using Terraform
 
 This Terraform project provisions an S3 bucket, configures it for static website hosting, and uploads necessary files to the bucket. The bucket is made publicly accessible, and ACLs are set accordingly.
